@@ -1,6 +1,4 @@
 # fl-ltcf-parser
- Python script to parse PDF reports from Florida DOH on COVID-19 cases in long term care facilities & generate a PDF
-
 Since April, the Florida Department of Health has published PDF reports on COVID-19 cases tied to long-term care facilities. This report was published roughly every day. Until late August, it was fairly easy to parse this report into a CSV, using the Tabula tool.
 
 In late August, however, the format of the PDF changed, and Tabula no longer handled it well.  Part of this seemed to be due to the fact that some rows of the report were split across pages. Recently I had a chance to revisit the problem, and created this Python script.
